@@ -40,8 +40,7 @@
       "expo-router",
       "expo-dev-client",
       "expo-audio",
-      "expo-font",
-      "react-native-reanimated"
+      "expo-font"
     ],
     "extra": {
       "router": {},
