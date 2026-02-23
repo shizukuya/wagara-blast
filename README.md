@@ -76,6 +76,7 @@ npx expo start --dev-client
 eas build --profile development --platform android --local
 eas build --profile development --platform ios --local
 npx expo start --dev-client
+npx expo start --tunnel --clear --dev-client
 ```
 
 ---
