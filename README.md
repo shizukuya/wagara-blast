@@ -73,7 +73,8 @@ npx expo start --dev-client
 #### EAS Build を使う場合
 
 ```bash
-eas build --profile development --platform android
+eas build --profile development --platform android --local
+eas build --profile development --platform ios --local
 npx expo start --dev-client
 ```
 

@@ -15,7 +15,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.wagara.blast"
+      "bundleIdentifier": "com.wagara.blast",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +26,11 @@
         "backgroundColor": "#1a0a2e"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.wagara.blast"
+      "package": "com.wagara.blast",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -33,6 +40,12 @@
       "expo-router",
       "expo-audio",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "62faada5-0ada-4c2e-aeec-233791dea7f6"
+      }
+    }
   }
 }
